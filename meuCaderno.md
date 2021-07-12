@@ -36,3 +36,12 @@ header>img+nav>ul>li*3>a
 color: var(--branco);
 font-family: var(--montserrat);
 ```
+
+# Aula03 - Particularidade de telas
+## Unidades de medida Viewport:
+- ```vw``` Unidade de medida em viewport que pode até transcender um padding e ocupar 100% da página.  
+```
+.container{
+	width: 100vw;
+}
+```
