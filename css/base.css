@@ -24,3 +24,20 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+.container{
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.botao{
+    text-align: center;
+    padding: 1rem 2rem;
+    border: 1px solid var(--branco);
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    max-width: 350px;
+
+}
