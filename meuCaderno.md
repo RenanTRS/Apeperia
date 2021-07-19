@@ -47,4 +47,25 @@ font-family: var(--montserrat);
 ```
 ## Medidas absolutas e relativas:
 ### O uso depende.
-- ```max-width: 600px;``` Útil para elementos que precisam ser de tamanhos relativos em telas pequenas  mas para telas grandes não podem ser proporcionalmente do mesmo tamanho.
+- ```max-width: 600px;``` Útil para elementos que precisam ser de tamanhos relativos em telas pequenas  mas para telas grandes não podem ser proporcionalmente do mesmo tamanho.  
+
+# Aula04 - Trabalhando a semântica HTML
+## Lidando com imagens:
+- Se uma imagem não tem importância de conteúdo, não há necessidade dela estar no html, pode ser chamada via css.  
+- Para colocar uma imagem via css:  
+```background-image: url(../img/icone-relogio.png);```  
+- Para não repetir:  
+```background-repeat: no-repeat;```  
+- Para posicionar:  
+```background-position: top 1.25rem left 2.5rem;```  
+
+## As tags address, video e br:
+- Para colocar endereço:  
+```<address></address>```  
+- Para links abrirem apps de ligação:  
+```<a href="tel:++551155712751">```  
+- Para links abrirem apps de email:  
+```<a href="mailto:contato@apeperia.com">```  
+
+- Para colocar um vídeo:  
+```<video src="diretorio" controls>``` **Controls** Serve para aparecer os controles de pause, barra de progresso e etc.  
