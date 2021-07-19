@@ -45,3 +45,6 @@ font-family: var(--montserrat);
 	width: 100vw;
 }
 ```
+## Medidas absolutas e relativas:
+### O uso depende.
+- ```max-width: 600px;``` Útil para elementos que precisam ser de tamanhos relativos em telas pequenas  mas para telas grandes não podem ser proporcionalmente do mesmo tamanho.
