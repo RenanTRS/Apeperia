@@ -69,3 +69,20 @@ font-family: var(--montserrat);
 
 - Para colocar um vídeo:  
 ```<video src="diretorio" controls>``` **Controls** Serve para aparecer os controles de pause, barra de progresso e etc.  
+
+# Aula05 - Evoluindo do mobile ao desktop
+## Evoluindo o layout para tablet:  
+- Para informar ao navegador o que fazer em determinado tamanho de tela:  
+```
+@media screen and (min-with:tamanho){
+		Apenas o que será alterado;
+}
+```
+- Mobile geralmente é: **375px**
+- Tablet geralmente é: **768px**
+- Desktop geralmente é: **1024px**
+
+- Para imagem via css caber dentro do bloco:  
+```background-size: cover;```  
+- Para esconder um elemento via css:  
+```display: none;```  
