@@ -39,5 +39,11 @@ body{
     display: block;
     width: 100%;
     max-width: 350px;
+}
 
+@media screen and (min-width: 1024px) {
+    .container {
+        padding-left: calc((100% - 940px)/2);
+        padding-right: calc((100% - 940px)/2);
+    }
 }
